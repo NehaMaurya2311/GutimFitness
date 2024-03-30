@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+*, ::after ::before {
+    box-sizing: border-box;
+}
+.hero{
+     background: url("../images/hero-bg.jpg") ; /*rgba(0,0,0,0.5) */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    height: 880px;
+    /* background-blend-mode: multiply; */
+    
+}
+.navbar{
+    text-align: center;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 15%;
+
+}
+.hero-info{
+    padding: 240px;
+    margin-left: 4%;
+    
+}
+.Bmi{
+    color: white;
+    font-family: "poppins";
+    font-size: 73px;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    
+    
+}
+.hero-info p{
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    color: white;
+    line-height: 30px;
+}
+.tim{
+    color: #f15d44;
+}
+.navbar-brand{
+    float: left;
+}
+.navbar{
+    border-bottom: solid 1px rgb(141, 139, 139);
+    padding: 0.5% 15% 1% 6%;
+    
+}
+.nav-item{
+    margin-right: 15px;
+}
+.nav-link{
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    
+}
+.sign{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #eb2c4c 0%, #f67831 100%) 1;
+    border-radius: 0px;
+    margin-left: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+.learn{
+    margin-top: 2%;
+    color: white;
+    background-image: linear-gradient(to right, #eb2c4c 0%, #f67831 100%);
+    border-radius: 0px;
+}
+#pricing{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.pricing-col{
+    padding-right: 40px;
+}
+.Mem{
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+.BSP{
+    color: white;
+    font-weight: 600;
+    
+}
+.card-body{
+    line-height: 2.0rem;
+}
+.card-header{
+    border-radius: 0px;
+    border-style: none;
+    background-image: linear-gradient(to right, #eb2c4c 0%, #f67831 100%);
+    padding: 25px 0;
+    position: relative;
+    margin-bottom: 38px;
+}
+.card-header ::after{
+    position: absolute;
+    left: 50%;
+    bottom: -14px;
+    width: 30px;
+    height: 15px;
+    transform: translateX(-15px);
+    clip-path: polygon(0% 0%, 50% 100%, 50% 100%, 100% 0%);
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    content: "";
+}
+.card-header:first-child {
+    border-radius: 0px;
+}
+.pri{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #eb2c4c 0%, #f67831 100%) 1;
+    
+}
+.card{
+    box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.15);
+    padding-bottom: 50px;
+    border-radius: 0px;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 70px;
+}
+.mo{
+    font-size: 16px;
+    color: #6b6b6b;
+}
+.mi-price{
+    color: #f15d44;
+    margin-bottom: 27px;
+}  
+.card-body p{
+    font-weight: 600;
+}
+.pri-bo{
+    margin-bottom: 27px;
+}
+p{
+    margin-bottom: 0;
+}
