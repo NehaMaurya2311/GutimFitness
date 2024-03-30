@@ -18,6 +18,10 @@ GutimFitness is a static website template designed for fitness-related businesse
 
 3. Explore the different sections of the website and customize it as needed for your practice.
 
+## Visit My Website
+
+To see this website in action, visit [https://nehamaurya2311.github.io/GutimFitness/].
+
 ## Disclaimer
 
 This project is based on an existing template and is intended for practice purposes only. It may not include all the features or functionalities of the original template. 
